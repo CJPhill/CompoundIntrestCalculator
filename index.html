@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Static Template</title>
+    <link rel="stylesheet" href="compint.css" />
+  </head>
+  <body>
+    <header>Compound Interest Calculator</header>
+      <p>Principal amount: <input id="initial" /></p>
+      <p>Annual Interest rate (0%-50%): <input id="intrest" type="range" list="tickmarks" max=50></p>
+      <datalist id="tickmarks">
+        <option value="0" label="0%"></option>
+        <option value="5"></option>
+        <option value="10"></option>
+        <option value="15"></option>
+        <option value="20"></option>
+        <option value="25" label="50%"></option>
+        <option value="30"></option>
+        <option value="35"></option>
+        <option value="40"></option>
+        <option value="45"></option>
+        <option value="50" label="100%"></option>
+        </datalist>
+      <p>Amount compounded per year: <input id="compound"/></p>
+      <p>Time (years) : <input id="time"/></p>
+      <p>Accrued amount: <spam id="amount"></span></p>
+      <script src="compint.js"></script>
+    <section id="pictures">
+      <img scr="calc.webp" alt="A calculator with a book and pen">
+    </section>
+    <footer>https://codesandbox.io/s/compoundintrestcalculator-jkq0u8?file=/index.html</footer>
+  </body>
+  <style>
+    @import url("https://fonts.googleapis.com/css2?family=Quicksand&display=swap");
+  </style>
+</html>

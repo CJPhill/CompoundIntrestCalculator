@@ -1,0 +1,60 @@
+header {
+  text-align: center;
+  background-color: tan;
+  padding: 15px;
+  font-size: 150%;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-shadow: -3px 2px 3px limegreen;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 35px;
+  transition: all 3s;
+}
+
+@font-face {
+  font-family: quickSand;
+  src: url("https://fonts.googleapis.com/css2?family=Quicksand&display=swap");
+}
+
+p {
+  transition: transform 3s;
+}
+
+p:hover {
+  transform: scale(1.1);
+}
+
+body {
+  background-image: linear-gradient(green, turquoise);
+  height: 100vh;
+  margin: 0;
+  text-align: center;
+  font-family: quickSand;
+  display: grid;
+}
+
+#entry {
+  text-align: flex-start;
+  justify-content: space-between;
+}
+
+#initial,
+#intrest,
+#compound,
+#time {
+  border: 2px solid tan;
+}
+
+#amount {
+  font-size: 20px;
+}
+
+img {
+  height: 50px;
+  width: 50px;
+  position: relative;
+}
+
+footer {
+  background-color: tan;
+}
